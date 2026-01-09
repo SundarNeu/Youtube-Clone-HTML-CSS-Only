@@ -1,0 +1,40 @@
+
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    column-gap: 5px;
+}
+
+.logo {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    line-height: 14px;
+}
+
+.author-name,
+.video-stat {
+    font-size: 10px;
+    color: gray;
+}
+
+.author-name {
+    margin-bottom: 3px;
+}
